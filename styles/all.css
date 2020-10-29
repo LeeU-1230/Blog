@@ -75,6 +75,9 @@ body, html {
     padding: 100px 0;
     height: 100%;
     line-height: 1.8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 .content {
@@ -108,7 +111,7 @@ body, html {
     display: inline-block;
     box-sizing: border-box;
     max-width: 45%;
-    height: 520px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -133,5 +136,15 @@ body, html {
 @media (max-width: 767.99px) {
     .card {
         max-width: 100%;
+    }
+    .tabcontent{
+        padding: 5% 0;
+    }
+    .content {
+        padding-right:5%;
+        padding-left: 5%;
+    }
+    .card{
+        height: auto;
     }
 }
